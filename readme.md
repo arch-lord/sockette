@@ -31,7 +31,7 @@ This is my fork that supports the `ws` WebSocket polyfill.
 ## Install
 
 ```
-$ npm install --save sockette
+$ npm install --save @archmaster/sockette
 ```
 
 
@@ -39,7 +39,7 @@ $ npm install --save sockette
 
 Unlike `WebSocket`, you should declare all event listeners on initialization:
 ```js
-const Sockette = require('sockette');
+const Sockette = require('@archmaster/sockette');
 
 const ws = new Sockette('ws://localhost:3000', {
   timeout: 5e3,
