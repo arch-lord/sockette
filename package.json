@@ -1,6 +1,6 @@
 {
   "name": "@archmaster/sockette",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "repository": "arch-lord/sockette",
   "description": "🧦 The cutest little WebSocket wrapper!",
   "unpkg": "dist/sockette.min.js",
