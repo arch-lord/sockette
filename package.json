@@ -27,14 +27,14 @@
     "reconnect",
     "websocket"
   ],
+  "dependencies": {
+    "ws": "^6.1.2"
+  },
   "devDependencies": {
     "gzip-size": "^5.0.0",
     "mk-dirs": "^1.0.0",
     "pretty-bytes": "^5.1.0",
     "tape": "^4.8.0",
     "terser": "^3.10.11"
-  },
-  "peerDependencies": {
-    "ws": "^6.1.2"
   }
 }
