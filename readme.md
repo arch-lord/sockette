@@ -26,6 +26,7 @@ In addition to attaching [additional API methods](#api), Sockette allows you to 
 
 You have direct access to the (current) underlying `WebSocket` within every `EventListener` callback (via `event.target`).
 
+This is my fork that supports the `ws` WebSocket polyfill.
 
 ## Install
 

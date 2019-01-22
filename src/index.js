@@ -1,4 +1,5 @@
 function noop() {}
+var WebSocket = require('ws');
 
 export default function (url, opts) {
 	opts = opts || {};
